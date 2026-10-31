@@ -7,3 +7,7 @@
   - Hình học `IfcTriangulatedFaceSet` (Tessellation), đơn vị mét
   - Mỗi cấu kiện có `Pset_CBNElement` (Mark, ElementId, Category, Family, Type, Material, Volume, Length, Comment)
   - Mở được bằng BIMvision, Solibri hoặc trình xem IFC bất kỳ
+
+## Demo IFC đơn giản
+
+- `demo/demo_1cot.ifc` — IFC4 với 01 cột `IfcColumn` (400x400x3000mm), hình học `IfcFacetedBrep`, có `IfcLocalPlacement` và `Pset_ColumnCommon`
